@@ -41,5 +41,33 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.shellhacks.emokey</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>Keymoji</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>snapchat</string>
+		<string>bitmoji-sdk</string>
+		<string>itms-apps</string>
+		<string>example (Change this)</string>
+	</array>
+	<key>SCSDKClientId</key>
+	<string>062de4b7-7193-4f77-9d5c-3c03b623a5a7</string>
+	<key>SCSDKRedirectUrl</key>
+	<string>Teamote://Keymoji</string>
+	<key>SCSDKScopes</key>
+	<array>
+		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+	</array>
 </dict>
 </plist>
