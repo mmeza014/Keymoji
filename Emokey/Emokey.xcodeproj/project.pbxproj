@@ -13,7 +13,6 @@
 		2E5AB77A214D80C800B87F27 /* Emokey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E5AB778214D80C800B87F27 /* Emokey.xcdatamodeld */; };
 		2E5AB77C214D80CB00B87F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5AB77B214D80CB00B87F27 /* Assets.xcassets */; };
 		2E5AB77F214D80CB00B87F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5AB77D214D80CB00B87F27 /* LaunchScreen.storyboard */; };
-		BE2F782725B22693B3CA0C24 /* Pods_Emokey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DEF8C44A44C2AD2879536A /* Pods_Emokey.framework */; };
 		DCD2EEA0214D9D7900A85C10 /* InputPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2EE9F214D9D7900A85C10 /* InputPasswordViewController.swift */; };
 		DCD2EEA4214DCA3900A85C10 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2EEA3214DCA3900A85C10 /* File.swift */; };
 		DCF51A2B214DCFA30029D75C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF51A2A214DCFA30029D75C /* CreateViewController.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11DEF8C44A44C2AD2879536A /* Pods_Emokey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emokey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5AB76E214D80C800B87F27 /* Emokey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emokey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5AB771214D80C800B87F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E5AB773214D80C800B87F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,8 +30,6 @@
 		2E5AB77B214D80CB00B87F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E5AB77E214D80CB00B87F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E5AB780214D80CB00B87F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D72AE4BE9F17946E9385154 /* Pods-Emokey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emokey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emokey/Pods-Emokey.release.xcconfig"; sourceTree = "<group>"; };
-		7D86B0E80EA73F104944EB7A /* Pods-Emokey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emokey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emokey/Pods-Emokey.debug.xcconfig"; sourceTree = "<group>"; };
 		DCD2EE9F214D9D7900A85C10 /* InputPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordViewController.swift; sourceTree = "<group>"; };
 		DCD2EEA3214DCA3900A85C10 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		DCF51A2A214DCFA30029D75C /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2F782725B22693B3CA0C24 /* Pods_Emokey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +54,6 @@
 			children = (
 				2E5AB770214D80C800B87F27 /* Emokey */,
 				2E5AB76F214D80C800B87F27 /* Products */,
-				F415E06F99F3E7B869B329C7 /* Pods */,
-				D3F27B279371981C46BC4430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,14 +117,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		D3F27B279371981C46BC4430 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				11DEF8C44A44C2AD2879536A /* Pods_Emokey.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E58B8158214E21CE003347F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,15 +133,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		F415E06F99F3E7B869B329C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7D86B0E80EA73F104944EB7A /* Pods-Emokey.debug.xcconfig */,
-				7D72AE4BE9F17946E9385154 /* Pods-Emokey.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,11 +140,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E5AB783214D80CB00B87F27 /* Build configuration list for PBXNativeTarget "Emokey" */;
 			buildPhases = (
-				1E8C6371F502FC788FDD7F5C /* [CP] Check Pods Manifest.lock */,
 				2E5AB76A214D80C800B87F27 /* Sources */,
 				2E5AB76B214D80C800B87F27 /* Frameworks */,
 				2E5AB76C214D80C800B87F27 /* Resources */,
-				9DCCA26DEA9E3779AD60E789 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,45 +198,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1E8C6371F502FC788FDD7F5C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Emokey-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DCCA26DEA9E3779AD60E789 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Emokey/Pods-Emokey-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emokey/Pods-Emokey-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E5AB76A214D80C800B87F27 /* Sources */ = {
@@ -419,7 +354,6 @@
 		};
 		2E5AB784214D80CB00B87F27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D86B0E80EA73F104944EB7A /* Pods-Emokey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +372,6 @@
 		};
 		2E5AB785214D80CB00B87F27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D72AE4BE9F17946E9385154 /* Pods-Emokey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
